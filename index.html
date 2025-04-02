@@ -5,13 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Calendário Interativo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' 
+    href='main.css'>
 </head>
 <body>
     <h1>Calendário Interativo</h1>
+    <h2>Abril-2025</h2>
 
-    <table>
+    <table class="calendar" id="calendar">
         <tr>
             <th>DOM</th>
             <th>SEG</th>
@@ -67,5 +68,14 @@
             <td></td>
         </tr>
     </table>
+    <hr>
+    <label for="">Escolha uma cor:</label>
+    <select  id="color">
+        <option value="LightBlue">Azul</option>
+        <option value="PaleGreen">Verde</option>
+        <option value="LightPink">Rosa</option>
+        <option value="SlateBlue">Roxo</option>
+    </select>
+    <script src='main.js'></script>
 </body>
 </html>
