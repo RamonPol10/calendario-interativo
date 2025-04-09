@@ -5,13 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Calendário Interativo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' 
-    href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
 </head>
 <body>
+   
     <h1>Calendário Interativo</h1>
     <h2>Abril-2025</h2>
-
+     
     <table class="calendar" id="calendar">
         <tr>
             <th>DOM</th>
@@ -22,6 +23,7 @@
             <th>SEX</th>
             <th>SAB</th>
         </tr>
+
         <tr>
             <td></td>
             <td></td>
@@ -31,6 +33,7 @@
             <td>4</td>
             <td>5</td>
         </tr>
+
         <tr>
             <td>6</td>
             <td>7</td>
@@ -40,6 +43,7 @@
             <td>11</td>
             <td>12</td>
         </tr>
+
         <tr>
             <td>13</td>
             <td>14</td>
@@ -67,20 +71,22 @@
             <td></td>
             <td></td>
         </tr>
+
+
     </table>
-    <hr>
-    <label for="">Escolha uma cor:</label>
-    <select  id="color">
+    <hr/>
+    <label for="">escolha uma cor:</label>
+    <select id="color">
         <option value="LightBlue">Azul</option>
         <option value="PaleGreen">Verde</option>
         <option value="LightPink">Rosa</option>
         <option value="SlateBlue">Roxo</option>
     </select>
-    <label id="day">Escolha o dia:</label>
-    <input type="number" min="1" max="30"
-    id="day">
-    <input type="submit">
-    
+    <label >escolha o dia:</label>
+    <input type="number" min="1" max="30" id="day">
+    <input type="submit" onclick="colorirDia()">
+
     <script src='main.js'></script>
+
 </body>
 </html>
